@@ -62,7 +62,7 @@ awscli examples (deploy_via_bash)
 ### Training
 
 - [Part 1 : AWS Networking Basics](https://devcentral.f5.com/articles/f5-in-aws-part-1-aws-networking-basics)
-- [Part 2: Running BIG-IP in an EC2 Virtual Private Cloud](Part 2: Running BIG-IP in an EC2 Virtual Private Cloud)
+- [Part 2: Running BIG-IP in an EC2 Virtual Private Cloud](https://devcentral.f5.com/articles/f5-in-aws-part-2-running-big-ip-in-an-ec2-virtual-private-cloud)
 - [Part 3: Advanced Topologies and More on Highly-Available Services](https://devcentral.f5.com/articles/part-3-of-big-ip-in-ec2-advanced-topologies-and-more-on-highly-available-services)
 - [Part 4: Orchestrating BIG-IP Application Services with Open-Source Tools](https://devcentral.f5.com/articles/f5-in-aws-part-4-orchestrating-big-ip-application-services-with-open-source-tools)
 - [Part 5: Cloud-init, Single-NIC, and Auto Scale Out of BIG-IP in v12](https://devcentral.f5.com/articles/f5-in-aws-part-5-cloud-init-single-nic-and-scale-out-of-big-ip-in-v12-21476)
