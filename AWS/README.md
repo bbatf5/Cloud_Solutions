@@ -1,6 +1,6 @@
 # AWS:
 
-### Notes
+### These are a collection of my Notes, for detailed information refer to [F5 Documentation](http://clouddocs.f5.com/cloud/public/v1/) directly as this repo my not contain all information.
 
 Started with 11.4.1
 
