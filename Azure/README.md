@@ -23,7 +23,7 @@ Every release (6-8 weeks) is tagged for [historical reference](https://github.co
 
 We use [Build Scripts](https://github.com/F5Networks/f5-azure-arm-templates/tree/master/build) to Create the ARM Templates
 
-If there as an available image you can [Modify](https://github.com/F5Networks/f5-azure-arm-templates/blob/master/azure-update-bigip-image.md) the ARM Template to specify
+You can  [Modify](https://github.com/F5Networks/f5-azure-arm-templates/blob/master/azure-update-bigip-image.md) the ARM Template to specify
 a required image
 
 All ARM Templates have a **AzureCLI** and **PowerShell** equivalents
@@ -61,4 +61,3 @@ All ARM Templates have a **AzureCLI** and **PowerShell** equivalents
 - [The Hitchhiker’s Guide to BIG-IP in Azure – “Deployment Scenarios”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-deployment-scenarios-26853)
 - [The Hitchhiker’s Guide to BIG-IP in Azure – “High Availability”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-high-availability-26962)
 - [The Hitchhiker’s Guide to BIG-IP in Azure – “Life Cycle Management”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-life-cycle-management-26988)
-- [Part 5: Cloud-init, Single-NIC, and Auto Scale Out of BIG-IP in v12](https://devcentral.f5.com/articles/f5-in-aws-part-5-cloud-init-single-nic-and-scale-out-of-big-ip-in-v12-21476)
