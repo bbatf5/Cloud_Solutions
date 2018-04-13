@@ -6,8 +6,9 @@ Azure Started with 12.0.0
 
 Current Supported [TMOS](https://github.com/F5Networks/f5-azure-arm-templates/blob/master/azure-bigip-version-matrix.md):
 - 13.1.0200
+- 12.1.303000
 
-Current Support Throughputs in [Market Place](https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=F5%20Networks&page=1):
+Current Supported throughputs [Market Place](https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=F5%20Networks&page=1):
 - 25Mbps to 3000Mbps
 
 Instance Size Change: supported starting beginning with 12.0.0
@@ -25,10 +26,7 @@ We use [Build Scripts](https://github.com/F5Networks/f5-azure-arm-templates/tree
 If there as an available image you can [Modify](https://github.com/F5Networks/f5-azure-arm-templates/blob/master/azure-update-bigip-image.md) the ARM Template to specify
 a required image
 
-All CFT's have Outputs
-
-awscli examples (deploy_via_bash)
-[convenience scripts](https://github.com/F5Networks/f5-aws-cloudformation/tree/master/deploy) for stitching two CFTs for outputs
+All ARM Templates have a **AzureCLI** and **PowerShell** equivalents
 
 [Template Definitions](https://github.com/F5Networks/f5-azure-arm-templates/tree/master/supported):
 - "existing_stack": more aligned with whats seen, adds BIP-IP to and existing Resource Group
@@ -45,20 +43,22 @@ awscli examples (deploy_via_bash)
 
 ### iApps:
 
-- [Service Discovery](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-service-discovery)
+- [Service Discovery](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-service-discovery) - [Video](https://devcentral.f5.com/articles/onboarding-f5-in-cloud-part-2-service-discovery-27486)
   - Tag a VM resource: The BIG-IP VE will discover the primary public or private IP addresses for the primary NIC configured for the tagged VM.
   - Tag a NIC resource: The BIG-IP VE will discover the primary public or private IP addresses for the tagged NIC. Use this option if you want to use the secondary NIC of a VM in the pool.
-- [Cloud_logger](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-cloud-logger) - OMS Formatted
+- [Cloud_logger](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-cloud-logger) - [Video](https://www.youtube.com/watch?v=X3B_TOG5ZpA&feature=youtu.be)
+  - OMS Formatted logs for Modules (ASM/APM/AFM and LTM)
 
-### Logging
+### Solutions
 
-- [ELK - (E)lasticsearch (L)ogstash and (K)ibana](https://johntuckner.me/2017/02/20/elk-integrating-f5-ltm-and-asm/)
-- [Cloud_logger](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-cloud-logger)
+- [Azure Security Center](https://devcentral.f5.com/articles/deploying-f5s-web-application-firewall-in-microsoft-azure-security-center-26785)
+  - [Add more Applications to ASC WAF](https://github.com/F5Networks/f5-azure-arm-templates/tree/master/experimental/reference/scripts)
+- [Office 365 Federation (SAML)](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/f5-networks.f5-o365-federation-payg?tab=Overview)
 
 ### Training
 
-- [Part 1 : AWS Networking Basics](https://devcentral.f5.com/articles/f5-in-aws-part-1-aws-networking-basics)
-- [Part 2: Running BIG-IP in an EC2 Virtual Private Cloud](https://devcentral.f5.com/articles/f5-in-aws-part-2-running-big-ip-in-an-ec2-virtual-private-cloud)
-- [Part 3: Advanced Topologies and More on Highly-Available Services](https://devcentral.f5.com/articles/part-3-of-big-ip-in-ec2-advanced-topologies-and-more-on-highly-available-services)
-- [Part 4: Orchestrating BIG-IP Application Services with Open-Source Tools](https://devcentral.f5.com/articles/f5-in-aws-part-4-orchestrating-big-ip-application-services-with-open-source-tools)
+- [The Hitchhiker’s Guide to BIG-IP in Azure](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-26852)
+- [The Hitchhiker’s Guide to BIG-IP in Azure – “Deployment Scenarios”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-deployment-scenarios-26853)
+- [The Hitchhiker’s Guide to BIG-IP in Azure – “High Availability”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-high-availability-26962)
+- [The Hitchhiker’s Guide to BIG-IP in Azure – “Life Cycle Management”](https://devcentral.f5.com/articles/the-hitchhikers-guide-to-big-ip-in-azure-life-cycle-management-26988)
 - [Part 5: Cloud-init, Single-NIC, and Auto Scale Out of BIG-IP in v12](https://devcentral.f5.com/articles/f5-in-aws-part-5-cloud-init-single-nic-and-scale-out-of-big-ip-in-v12-21476)

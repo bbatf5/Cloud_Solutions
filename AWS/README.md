@@ -49,7 +49,7 @@ awscli examples (deploy_via_bash)
 ### iApps:
 
 - HA setup
-- [Service Discovery](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-service-discovery)
+- [Service Discovery](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-service-discovery) - [Video](https://devcentral.f5.com/articles/onboarding-f5-in-cloud-part-2-service-discovery-27486)
   - Tag a VM resource: The BIG-IP VE will discover the primary public or private IP addresses for the primary NIC configured for the tagged VM.
   - Tag a NIC resource: The BIG-IP VE will discover the primary public or private IP addresses for the tagged NIC. Use this option if you want to use the secondary NIC of a VM in the pool.
 - [Cloud_logger](https://github.com/F5Networks/f5-cloud-iapps/tree/master/f5-cloud-logger) - Cloudwatch Format
