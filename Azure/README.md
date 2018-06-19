@@ -37,6 +37,7 @@ All ARM Templates have a **AzureCLI** and **PowerShell** equivalents
 
 ### Azure Features:
 
+- [168.63.129.16](https://blogs.msdn.microsoft.com/mast/2015/05/18/what-is-the-ip-address-168-63-129-16/), this address can be thought of as an IP Helper Address for Azure worldwide, this address is used to bring an instance online passing information, it is also used to communicate from Azure to an instance. Denying this address to/from an instance ***will*** break all kinds of things and cause ARM templates to fail.
 - [waagent](http://clouddocs.f5.com/cloud/public/v1/azure/Azure_waagent.html) is used to interact with Azure API, and is only updated when a new BIG-IP is loaded into Azure, you should **not** install this on your own
 - [customConfig](http://clouddocs.f5.com/cloud/public/v1/azure/Azure_solutions101.html) you have the ability to add TMSH calls directly into the ARM template with customConfig
 - [Cloud-Libs](https://github.com/F5Networks/f5-cloud-libs) have different use cases (Licensing, etc), however they are pulled down during the build of the BIG-IP which means the BIG-IP ***MUST*** be able to reach this repo during build. The Build may complete however it might not be in the desired configuration state specified in the ARM template.

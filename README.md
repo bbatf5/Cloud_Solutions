@@ -2,7 +2,7 @@
 
 This repository contains information on cloud offerings from F5
 
-:book: [F5 Cloud Solutions Powerpoint](https://github.com/jmcalalang/Cloud_Solutions/blob/master/Cloud%20Solutions.pdf)
+:book: [F5 Cloud Solutions Presentation](https://github.com/jmcalalang/Cloud_Solutions/blob/master/F5%Cloud%20Solutions%Release%10.pdf)
 
 :cloud: [AWS](https://github.com/jmcalalang/Cloud_Solutions/tree/master/AWS)
 
