@@ -5,13 +5,16 @@
 Started with 11.4.1
 
 Current Supported TMOS is [AMI's](https://github.com/F5Networks/f5-aws-cloudformation/tree/master/AMI%20Maps):
-
+BIG-IP
 - 11.5.4
 - 11.6.2
 - 12.1.2
 - 13.0.0
 - 13.1.0.2
 - 13.1.0.5
+
+BIG-IQ
+- 6.0
 
 Current Support Throughputs in [Market Place](https://aws.amazon.com/marketplace/seller-profile?id=74d946f0-fa54-4d9f-99e8-ff3bd8eb2745):
 - 25Mbps to 5000Mbps
