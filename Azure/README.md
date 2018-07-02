@@ -5,9 +5,11 @@
 Azure Started with 12.0.0
 
 Current Supported [TMOS](https://github.com/F5Networks/f5-azure-arm-templates/blob/master/azure-bigip-version-matrix.md):
+
 BIG-IP
 - 13.1.0700
 - 12.1.303000
+
 BIG-IQ
 - 6.0
 
